@@ -1,4 +1,4 @@
-<<?php 
+<?php 
 
 function redirectToroute($route){
     http_response_code(308);

@@ -16,5 +16,3 @@
     </a>
   </div>
 </nav>
-</body>
-</html>
