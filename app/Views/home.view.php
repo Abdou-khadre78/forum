@@ -6,7 +6,7 @@
         <?php
     }else {
 ?>
-    <h1>Bienvenue Abdou !</h1>
+    <h1>Bienvenue!</h1>
     
 <?php
 }
