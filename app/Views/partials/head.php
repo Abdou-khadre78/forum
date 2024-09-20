@@ -22,6 +22,7 @@
                   if($_SESSION['user']['role'] == 'Admin'){
                     ?>
                      <a href="/users">Utilisateurs</a>
+                     <a href="/subject">Ajout sujet</a>
                     <?php
                   }
             }else{
