@@ -17,7 +17,7 @@
     <?php
             if(isset($_SESSION['user'])){
                 ?>
-                  <a href="/logout">Déconnection</a>
+                  <a href="/deconnection">Déconnection</a>
                   <?php
                   if($_SESSION['user']['role'] == 'Admin'){
                     ?>
@@ -31,8 +31,5 @@
               <?php
             }
                   ?>
-  
-  
-    </a>
   </div>
 </nav>
