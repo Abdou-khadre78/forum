@@ -15,7 +15,7 @@ if(isset($_GET['id'])){
         redirectToRoute('/');
     }
 
-    require_once (__DIR__ . '/../Views/userProfile.view.php');
+    require_once (__DIR__ . '/../Views/user.view.php');
 }else {
     require_once (__DIR__ . '/404Controller.php');
 }
